@@ -1,0 +1,7 @@
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\bin\Debug\NET_HolaMundo.exe.config
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\bin\Debug\NET_HolaMundo.exe
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\bin\Debug\NET_HolaMundo.pdb
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\obj\Debug\NET_HolaMundo.csproj.AssemblyReference.cache
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\obj\Debug\NET_HolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\obj\Debug\NET_HolaMundo.exe
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Unidad01_Introduccion\C#\NET_HolaMundo\NET_HolaMundo\obj\Debug\NET_HolaMundo.pdb
