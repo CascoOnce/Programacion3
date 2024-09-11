@@ -1,0 +1,3 @@
+enum TipoLocal{
+	TEATRO, ACUSTICO, DE_SALA, RECITAL, SINFONICO, 
+}
