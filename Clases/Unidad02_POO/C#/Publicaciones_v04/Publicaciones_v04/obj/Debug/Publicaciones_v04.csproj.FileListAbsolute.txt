@@ -1,0 +1,7 @@
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\obj\Debug\Publicaciones_v04.csproj.AssemblyReference.cache
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\obj\Debug\Publicaciones_v04.csproj.CoreCompileInputs.cache
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\bin\Debug\Publicaciones_v04.exe.config
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\bin\Debug\Publicaciones_v04.exe
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\bin\Debug\Publicaciones_v04.pdb
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\obj\Debug\Publicaciones_v04.exe
+C:\Users\nickc\Documents\IngenieriaInformatica\Cursos_Ciclo06\Programacion_3\Clases\Unidad02_POO\C#\Publicaciones_v04\Publicaciones_v04\obj\Debug\Publicaciones_v04.pdb
