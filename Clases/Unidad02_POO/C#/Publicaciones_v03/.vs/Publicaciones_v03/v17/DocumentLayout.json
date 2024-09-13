@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|solutionrelative:publicaciones_v03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|c:\\users\\nickc\\documents\\ingenieriainformatica\\cursos_ciclo06\\programacion_3\\clases\\unidad02_poo\\c#\\publicaciones_v03\\publicaciones_v03\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|C:\\Users\\nickc\\Documents\\IngenieriaInformatica\\Cursos_Ciclo06\\Programacion_3\\Clases\\Unidad02_POO\\C#\\Publicaciones_v03\\publicaciones_v03\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|solutionrelative:publicaciones_v03\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|c:\\users\\nickc\\documents\\ingenieriainformatica\\cursos_ciclo06\\programacion_3\\clases\\unidad02_poo\\c#\\publicaciones_v03\\publicaciones_v03\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|C:\\Users\\nickc\\Documents\\IngenieriaInformatica\\Cursos_Ciclo06\\Programacion_3\\Clases\\Unidad02_POO\\C#\\Publicaciones_v03\\publicaciones_v03\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|solutionrelative:publicaciones_v03\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|c:\\users\\nickc\\documents\\ingenieriainformatica\\cursos_ciclo06\\programacion_3\\clases\\unidad02_poo\\c#\\publicaciones_v03\\publicaciones_v03\\tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|C:\\Users\\nickc\\Documents\\IngenieriaInformatica\\Cursos_Ciclo06\\Programacion_3\\Clases\\Unidad02_POO\\C#\\Publicaciones_v03\\publicaciones_v03\\tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|solutionrelative:publicaciones_v03\\tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|c:\\users\\nickc\\documents\\ingenieriainformatica\\cursos_ciclo06\\programacion_3\\clases\\unidad02_poo\\c#\\publicaciones_v03\\publicaciones_v03\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|C:\\Users\\nickc\\Documents\\IngenieriaInformatica\\Cursos_Ciclo06\\Programacion_3\\Clases\\Unidad02_POO\\C#\\Publicaciones_v03\\publicaciones_v03\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D17A6FE6-32E4-46FB-AB0F-7C51442F3EA2}|Publicaciones_v03\\Publicaciones_v03.csproj|solutionrelative:publicaciones_v03\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Publicaciones_v03\\Libro.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T03:57:54.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T03:57:54.287Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Publicaciones_v03\\Tesis.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T03:52:28.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T03:52:28.652Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Publicaciones_v03\\Articulo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T03:50:41.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T03:50:41.784Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "Publicaciones_v03\\Publicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T03:49:12.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T03:49:12.595Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "Publicaciones_v03\\Program.cs",
               "ToolTip": "C:\\Users\\nickc\\Documents\\IngenieriaInformatica\\Cursos_Ciclo06\\Programacion_3\\Clases\\Unidad02_POO\\C#\\Publicaciones_v03\\Publicaciones_v03\\Program.cs",
               "RelativeToolTip": "Publicaciones_v03\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T03:27:37.116Z",
               "EditorCaption": ""

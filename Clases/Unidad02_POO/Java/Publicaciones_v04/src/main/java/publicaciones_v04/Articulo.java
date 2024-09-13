@@ -8,14 +8,14 @@ public class Articulo extends Publicacion{
     private String mes;
 // Metodos
     // Constructor
-    public Articulo(String nombre, String[] autores, Integer cantidad_autores, Integer año, String revista, Integer volumen, Integer numero, String mes){
+    public Articulo(String nombre, Autor[] autores, Integer cantidad_autores, Integer año, String revista, Integer volumen, Integer numero, String mes){
         super(nombre, autores, cantidad_autores, año);
         this.revista = revista;
         this.volumen = volumen;
         this.numero = numero;
         this.mes = mes;
     }
-    public Articulo(String nombre, String autor, Integer año, String revista, Integer volumen, Integer numero, String mes){
+    public Articulo(String nombre, Autor autor, Integer año, String revista, Integer volumen, Integer numero, String mes){
         super(nombre, autor, año);
         this.revista = revista;
         this.volumen = volumen;
@@ -31,21 +31,10 @@ public class Articulo extends Publicacion{
                 if (i==this.cantidad_autores-1){referencia = referencia.concat(" and ");}
                 else{referencia = referencia.concat(", ");}
             }
-            referencia = referencia.concat(this.autores[i]);                    
+            referencia += this.autores[i].lineaAutor();                    
         }
-        referencia = referencia.concat(", \"");
-        referencia = referencia.concat(this.nombre);
-        referencia = referencia.concat("\", ");
-        referencia = referencia.concat(this.revista);
-        referencia = referencia.concat(", vol. ");
-        referencia = referencia.concat(this.volumen.toString());
-        referencia = referencia.concat(", no. ");
-        referencia = referencia.concat(this.numero.toString());
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.mes);
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.año.toString());
-        referencia = referencia.concat(".");
+        referencia += ", \"" + this.nombre + "\", " + this.revista + ", vol. " + this.volumen.toString();
+        referencia += ", no. " + this.numero.toString() + ", " + this.mes + ", " + this.año.toString() + ".";
         System.out.println(referencia);
     }
 }

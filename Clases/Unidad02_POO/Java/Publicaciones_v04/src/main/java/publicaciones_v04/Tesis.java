@@ -9,7 +9,7 @@ public class Tesis extends Publicacion{
     private String estado;
 // Metodos
     // Constructor
-    public Tesis(String nombre, String[] autores, Integer cantidad_autores, Integer año, Clase_de_Tesis clase, String departamento, String institucion, String ciudad, String estado){
+    public Tesis(String nombre, Autor[] autores, Integer cantidad_autores, Integer año, Clase_de_Tesis clase, String departamento, String institucion, String ciudad, String estado){
         super(nombre, autores, cantidad_autores, año);
         this.clase = clase;
         this.departamento = departamento;
@@ -17,7 +17,7 @@ public class Tesis extends Publicacion{
         this.ciudad = ciudad;
         this.estado = estado;
     }
-    public Tesis(String nombre, String autor, Integer año, Clase_de_Tesis clase, String departamento, String institucion, String ciudad, String estado){
+    public Tesis(String nombre, Autor autor, Integer año, Clase_de_Tesis clase, String departamento, String institucion, String ciudad, String estado){
         super(nombre, autor, año);
         this.clase = clase;
         this.departamento = departamento;
@@ -29,32 +29,21 @@ public class Tesis extends Publicacion{
     // Impresion
     public void referenciar(){
         String referencia = "[" + Publicacion.orden_presentacion + "] ";
-        for(int i=0; i<this.cantidad_autores; i++){
+        for(int i=0; i < this.cantidad_autores; i++){
             if (i!=0){
-                if (i==this.cantidad_autores-1){referencia = referencia.concat(" and ");}
-                else{referencia = referencia.concat(", ");}
+                if (i == this.cantidad_autores-1){referencia += " and ";}
+                else{referencia += ", ";}
             }
-            referencia = referencia.concat(this.autores[i]);                    
+            referencia += this.autores[i].lineaAutor();                    
         }
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.nombre);
-        referencia = referencia.concat(", ");
+        referencia += ", " + this.nombre + ", ";
         switch(this.clase){
-            case Clase_de_Tesis.LICENCIATURA -> referencia = referencia.concat("Tesis de Licenciatura");
-            case Clase_de_Tesis.MAESTRIA -> referencia = referencia.concat("Tesis de Licenciatura");
-            case Clase_de_Tesis.DOCTORADO -> referencia = referencia.concat("Tesis de Doctorado");    
+            case Clase_de_Tesis.LICENCIATURA -> referencia += "Tesis de Licenciatura";
+            case Clase_de_Tesis.MAESTRIA -> referencia += "Tesis de Licenciatura";
+            case Clase_de_Tesis.DOCTORADO -> referencia += "Tesis de Doctorado";
         }
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.departamento);
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.institucion);
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.ciudad);
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.estado);
-        referencia = referencia.concat(", ");
-        referencia = referencia.concat(this.año.toString());
-        referencia = referencia.concat(".");
+        referencia += ", " + this.departamento + ", " + this.institucion + ", ";
+        referencia += this.ciudad + ", " + this.estado + ", " + this.año.toString() + ".";
         System.out.println(referencia);
     }
 }

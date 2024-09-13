@@ -14,7 +14,7 @@ namespace Publicaciones_v04
         private string editorial;
         // Metodos
         // Constructor
-        public Libro(String nombre, String[] autores, int cantidad_autores, int año,
+        public Libro(String nombre, Autor[] autores, int cantidad_autores, int año,
             String edicion, String lugar, String editorial) :
             base(nombre, autores, cantidad_autores, año)
         {
@@ -22,7 +22,7 @@ namespace Publicaciones_v04
             this.lugar = lugar;
             this.editorial = editorial;
         }
-        public Libro(String nombre, String autor, int año, String edicion, String lugar,
+        public Libro(String nombre, Autor autor, int año, String edicion, String lugar,
                 String editorial) :
              base(nombre, autor, año)
         {
@@ -41,7 +41,7 @@ namespace Publicaciones_v04
                     if (i == this.cantidad_autores - 1) referencia += " and ";
                     else referencia += ", ";
                 }
-                referencia += this.autores[i];
+                referencia += this.autores[i].lineaAutor();
             }
             referencia += ", " + this.nombre + ". " + this.edicion + "." +
                 this.lugar + "." + this.editorial + ". " + this.año.ToString() + ".";

@@ -15,7 +15,7 @@ namespace Publicaciones_v04
         private string mes;
         // Metodos
         // Constructor
-        public Articulo(string nombre, string[] autores, int cantidad_autores, int año,
+        public Articulo(string nombre, Autor[] autores, int cantidad_autores, int año,
             string revista, int volumen, int numero, string mes) :
             base(nombre, autores, cantidad_autores, año)
         {
@@ -24,7 +24,7 @@ namespace Publicaciones_v04
             this.numero = numero;
             this.mes = mes;
         }
-        public Articulo(string nombre, string autor, int año,
+        public Articulo(string nombre, Autor autor, int año,
             string revista, int volumen, int numero, string mes) :
             base(nombre, autor, año)
         {
@@ -44,7 +44,7 @@ namespace Publicaciones_v04
                     if (i == this.cantidad_autores - 1) referencia += " and ";
                     else referencia += ", ";
                 }
-                referencia += this.autores[i];
+                referencia += this.autores[i].lineaAutor();
             }
             referencia += ", \"" + this.nombre + "\", " + this.revista +
                 ", vol. " + this.volumen.ToString() + ", no. " + this.numero.ToString() +
